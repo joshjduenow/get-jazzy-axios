@@ -51,7 +51,15 @@ app.get('/artist', (req, res) => {
     res.send(artistListArray);
 });
 
+app.post('artist', (req, res) => {
+
+    res.sendStatus(201)
+})
 // TODO - Add GET for songs
+
+app.get('/song', (req, res) => {
+    res.send(songListArray);
+})
 
 app.listen(PORT, () => {
     console.log('listening on port', PORT)
