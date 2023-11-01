@@ -40,6 +40,7 @@ function onReady() {
             <tr>
                 <td>${song.title}</td>
                 <td>${song.artist}</td>
+                
             </tr>
         `;
         }

@@ -33,14 +33,16 @@
         </thead>
         <tbody id="songTableBody"></tbody>
     </table>
-    <h2>Add New Artist</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Artist</th>
-                <th>Song</th>
-            </tr>
-        </thead>
-    </table>
+<h2>Add Artist</h2>
+<form onsubmit="addArtist()">
+    <input
+    placeholder="Artist"
+    id ="newArtist" 
+    >
+    <input
+    placeholder="Song"
+    id="newSong">
+    <button>Submit</button>
+</form>
 </body>
 </html>
